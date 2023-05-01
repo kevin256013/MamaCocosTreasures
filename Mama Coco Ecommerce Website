@@ -105,25 +105,31 @@
 <h1>Mama Coco's Treasure</h1>
 <tr>
   <td>
-    <img src="<?php echo $pictures[0]; ?>" width="200" height="200">
-    <h3>Product Name 1</h3>
-    <p>Description of Product 1.</p>
-    <p>Price: $10</p>
-    <button>Add to Cart</button>
+    <div style="text-align: left;">
+      <img src="<?php echo $pictures[0]; ?>" width="200" height="200">
+      <h3>Product Name 1</h3>
+      <p>Description of Product 1.</p>
+      <p>Price: $10</p>
+      <button>Add to Cart</button>
+    </div>
   </td>
   <td>
-    <img src="<?php echo $pictures[1]; ?>" width="200" height="200">
-    <h3>Product Name 2</h3>
-    <p>Description of Product 2.</p>
-    <p>Price: $20</p>
-    <button>Add to Cart</button>
+    <div style="text-align: left;">
+      <img src="<?php echo $pictures[1]; ?>" width="200" height="200">
+      <h3>Product Name 2</h3>
+      <p>Description of Product 2.</p>
+      <p>Price: $20</p>
+      <button>Add to Cart</button>
+    </div>
   </td>
   <td>
-    <img src="<?php echo $pictures[2]; ?>" width="200" height="200">
-    <h3>Product Name 3</h3>
-    <p>Description of Product 3.</p>
-    <p>Price: $30</p>
-    <button>Add to Cart</button>
+    <div style="text-align: left;">
+      <img src="<?php echo $pictures[2]; ?>" width="200" height="200">
+      <h3>Product Name 3</h3>
+      <p>Description of Product 3.</p>
+      <p>Price: $30</p>
+      <button>Add to Cart</button>
+    </div>
   </td>
 </tr>
 
